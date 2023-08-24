@@ -1,0 +1,25 @@
+1. What  is the difference between C and C++ ?
+	C is procedure oriented language. 
+	C++ is object oriented language. 
+	C is less concerned about the data which it is handling. Where in C++ 
+	data and functions are bound  together , and only those functions 
+	can operate on that data.
+2. OOPS concepts: Object Oriented Programming concepts
+   1. Encapsulation
+   	Binding data and methods together is called encapsulation. 
+   2. Abstraction
+   	Hinding some data memebers and exposing only the required members 
+   	is called abstraction. In C++ anstarction is achieved by "public "
+   	and "private" access specifiers. 
+   3. Inheritance
+        Aquiring the parent properties by child is called inheritance.
+   	
+   4. Polymorphism
+   	Different behaviour of the method or operator in different situations 
+   	is called polymorphism. 
+   5.class:
+   	A class is a blue print  or the prototype of the objects which are 	   created. It contains all the data and methods which are common to the objects of that class. 
+   6.Object:
+   	An object is an instantiation of the class. 
+ 
+   

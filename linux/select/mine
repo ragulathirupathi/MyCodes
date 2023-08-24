@@ -1,0 +1,28 @@
+//select vs poll and epoll ystem calls
+
+#include<stdio.h>
+#include<unistd.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+
+
+//will create five child process and each child will send to main process some message 
+//parent also will create a socket to listen to the events 
+int main(void)
+{
+	//child process creation 
+	
+	
+	int serverFd;
+	serverFd = socket(AF_INET, SOCK_STREAM,0);
+	if(serverFd < 0)
+	{
+		printf("Error creation in the server socket\n");
+		exit(1);
+	}
+	struct sockaddr_in serveraddr;
+	serveraddr.
+	
+
+	return 0;
+}

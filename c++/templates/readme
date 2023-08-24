@@ -1,0 +1,31 @@
+Templates are used to create the generic classes and generic functions. The compiler will generate the code for the type of the parameter. This is very useful in case of generic programming. like sorting the quick sort function will be same what ever the argument will be passed. The stack and queue operations are same on any type pf the data.
+
+
+template < class X > void SwapArgs( X &a, X &b)
+{
+
+
+}
+
+
+template  < X > class  stack {
+
+
+
+}
+instantiation  
+
+stack < int  > myStackVar;
+
+
+
+
+recently an a;ternative came in place of X in template 
+
+
+
+template< typename X > void swapArgs(X &a, X &b)
+{
+
+
+}
