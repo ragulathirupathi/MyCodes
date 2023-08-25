@@ -1,0 +1,10 @@
+Scheduling in linux
+	1. Core scheduling (priority based preemptive) 
+	2. policy plugin 
+		-->General purpose scheduling  --to be used for the task which have the priority 0
+			SCHED_OTHER(Default), SCHED_IDLE, SCHED_BATCH
+		-->Real time scheduling        --to be used for the task which have the priority (1-99)
+			SCHED_RR, SCHED_FIFO
+		-->Deadline scheduling 
+			SCED_DEADLINE
+

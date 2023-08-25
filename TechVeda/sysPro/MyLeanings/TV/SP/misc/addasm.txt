@@ -1,0 +1,25 @@
+
+main:
+    pushl %ebp
+    movl  %esp,%ebp
+    subl  $12,%ebp
+    movl  $10, -12(%ebp)
+    movl  $20, -8(%ebp)
+    movl -8(%ebp),%eax
+    movl -12(%ebp),%ebx
+    call add
+    addl  $8, %esp
+    movl  %eax,-4(%ebp)
+    movl  $0, %eax
+    leave == movl %ebp, %esp
+    ret   == pop %ebp
+    
+add:
+    pushl %ebp
+    movl  %esp,%ebp
+    subl  $8, %esp
+    mov   -8(%ebp), %eax
+    mov   -4(%ebp), %ebx
+    add    %ebx, %eax
+    mov    %ebp, %esp
+    pop    $ebp
